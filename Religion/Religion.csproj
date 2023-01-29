@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{35CB6914-CF6F-4D71-BE6B-CA372E251A65}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Religion</RootNamespace>
+    <AssemblyName>Religion</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="build\" />
+    <Folder Include="src\hooks\oxide\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ref\0Harmony.dll" />
+    <Content Include="ref\Accessibility.dll" />
+    <Content Include="ref\Assembly-CSharp-firstpass.dll" />
+    <Content Include="ref\Assembly-CSharp.dll" />
+    <Content Include="ref\CurvedTextMeshPro.dll" />
+    <Content Include="ref\DelaunayER.dll" />
+    <Content Include="ref\EasyRoads3Dv3.dll" />
+    <Content Include="ref\EZhex1991.EZSoftBone.dll" />
+    <Content Include="ref\Facepunch.BurstCloth.dll" />
+    <Content Include="ref\Facepunch.Console.dll" />
+    <Content Include="ref\Facepunch.Flexbox.dll" />
+    <Content Include="ref\Facepunch.GoogleSheets.dll" />
+    <Content Include="ref\Facepunch.Input.dll" />
+    <Content Include="ref\Facepunch.Network.dll" />
+    <Content Include="ref\Facepunch.Raknet.dll" />
+    <Content Include="ref\Facepunch.Rcon.dll" />
+    <Content Include="ref\Facepunch.Skeleton.dll" />
+    <Content Include="ref\Facepunch.Sqlite.dll" />
+    <Content Include="ref\Facepunch.SteamNetworking.dll" />
+    <Content Include="ref\Facepunch.Steamworks.Win64.dll" />
+    <Content Include="ref\Facepunch.System.dll" />
+    <Content Include="ref\Facepunch.Unity.dll" />
+    <Content Include="ref\Facepunch.UnityEngine.dll" />
+    <Content Include="ref\Facepunch.UnwrapBaker.Settings.dll" />
+    <Content Include="ref\Fleck.dll" />
+    <Content Include="ref\GA.dll" />
+    <Content Include="ref\I18N.CJK.dll" />
+    <Content Include="ref\I18N.dll" />
+    <Content Include="ref\I18N.MidEast.dll" />
+    <Content Include="ref\I18N.Other.dll" />
+    <Content Include="ref\I18N.Rare.dll" />
+    <Content Include="ref\I18N.West.dll" />
+    <Content Include="ref\Ionic.Zip.Reduced.dll" />
+    <Content Include="ref\LZ4.dll" />
+    <Content Include="ref\LZ4pn.dll" />
+    <Content Include="ref\Melanchall.DryWetMidi.dll" />
+    <Content Include="ref\MidiJack.dll" />
+    <Content Include="ref\Mono.Cecil.dll" />
+    <Content Include="ref\Mono.Cecil.Mdb.dll" />
+    <Content Include="ref\Mono.Cecil.Pdb.dll" />
+    <Content Include="ref\Mono.Cecil.Rocks.dll" />
+    <Content Include="ref\Mono.Data.Sqlite.dll" />
+    <Content Include="ref\Mono.Data.Tds.dll" />
+    <Content Include="ref\Mono.Posix.dll" />
+    <Content Include="ref\Mono.Security.dll" />
+    <Content Include="ref\Mono.WebBrowser.dll" />
+    <Content Include="ref\MP3Sharp.dll" />
+    <Content Include="ref\mscorlib.dll" />
+    <Content Include="ref\MySql.Data.dll" />
+    <Content Include="ref\netstandard.dll" />
+    <Content Include="ref\Newtonsoft.Json.dll" />
+    <Content Include="ref\Novell.Directory.Ldap.dll" />
+    <Content Include="ref\OpusWrapper.dll" />
+    <Content Include="ref\Oxide.Core.dll" />
+    <Content Include="ref\Oxide.CSharp.dll" />
+    <Content Include="ref\Oxide.MySql.dll" />
+    <Content Include="ref\Oxide.References.dll" />
+    <Content Include="ref\Oxide.Rust.dll" />
+    <Content Include="ref\Oxide.SQLite.dll" />
+    <Content Include="ref\Oxide.Unity.dll" />
+    <Content Include="ref\Rust.Data.dll" />
+    <Content Include="ref\Rust.Demo.dll" />
+    <Content Include="ref\Rust.FileSystem.dll" />
+    <Content Include="ref\Rust.Global.dll" />
+    <Content Include="ref\Rust.Harmony.dll" />
+    <Content Include="ref\Rust.Localization.dll" />
+    <Content Include="ref\Rust.Platform.Common.dll" />
+    <Content Include="ref\Rust.Platform.dll" />
+    <Content Include="ref\Rust.Platform.Steam.dll" />
+    <Content Include="ref\Rust.UI.dll" />
+    <Content Include="ref\Rust.Workshop.dll" />
+    <Content Include="ref\Rust.World.dll" />
+    <Content Include="ref\System.Buffers.dll" />
+    <Content Include="ref\System.ComponentModel.Composition.dll" />
+    <Content Include="ref\System.ComponentModel.DataAnnotations.dll" />
+    <Content Include="ref\System.Configuration.dll" />
+    <Content Include="ref\System.Configuration.Install.dll" />
+    <Content Include="ref\System.Core.dll" />
+    <Content Include="ref\System.Data.dll" />
+    <Content Include="ref\System.Data.SQLite.dll" />
+    <Content Include="ref\System.Design.dll" />
+    <Content Include="ref\System.Diagnostics.StackTrace.dll" />
+    <Content Include="ref\System.DirectoryServices.dll" />
+    <Content Include="ref\System.dll" />
+    <Content Include="ref\System.Drawing.Design.dll" />
+    <Content Include="ref\System.Drawing.dll" />
+    <Content Include="ref\System.EnterpriseServices.dll" />
+    <Content Include="ref\System.Globalization.Extensions.dll" />
+    <Content Include="ref\System.IO.Compression.dll" />
+    <Content Include="ref\System.IO.Compression.FileSystem.dll" />
+    <Content Include="ref\System.Memory.dll" />
+    <Content Include="ref\System.Net.Http.dll" />
+    <Content Include="ref\System.Numerics.dll" />
+    <Content Include="ref\System.Numerics.Vectors.dll" />
+    <Content Include="ref\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Content Include="ref\System.Runtime.dll" />
+    <Content Include="ref\System.Runtime.Serialization.dll" />
+    <Content Include="ref\System.Runtime.Serialization.Formatters.Soap.dll" />
+    <Content Include="ref\System.Runtime.Serialization.Xml.dll" />
+    <Content Include="ref\System.Security.dll" />
+    <Content Include="ref\System.ServiceModel.Internals.dll" />
+    <Content Include="ref\System.Speech.dll" />
+    <Content Include="ref\System.Threading.Tasks.Extensions.dll" />
+    <Content Include="ref\System.Transactions.dll" />
+    <Content Include="ref\System.Web.ApplicationServices.dll" />
+    <Content Include="ref\System.Web.dll" />
+    <Content Include="ref\System.Web.Services.dll" />
+    <Content Include="ref\System.Windows.Forms.dll" />
+    <Content Include="ref\System.Xml.dll" />
+    <Content Include="ref\System.Xml.Linq.dll" />
+    <Content Include="ref\System.Xml.XPath.XDocument.dll" />
+    <Content Include="ref\Unity.Burst.dll" />
+    <Content Include="ref\Unity.Burst.Unsafe.dll" />
+    <Content Include="ref\Unity.Mathematics.dll" />
+    <Content Include="ref\Unity.Recorder.Base.dll" />
+    <Content Include="ref\Unity.Recorder.dll" />
+    <Content Include="ref\Unity.TerrainTools.dll" />
+    <Content Include="ref\Unity.TextMeshPro.dll" />
+    <Content Include="ref\Unity.Timeline.dll" />
+    <Content Include="ref\UnityEngine.AccessibilityModule.dll" />
+    <Content Include="ref\UnityEngine.AIModule.dll" />
+    <Content Include="ref\UnityEngine.AndroidJNIModule.dll" />
+    <Content Include="ref\UnityEngine.AnimationModule.dll" />
+    <Content Include="ref\UnityEngine.ARModule.dll" />
+    <Content Include="ref\UnityEngine.AssetBundleModule.dll" />
+    <Content Include="ref\UnityEngine.AudioModule.dll" />
+    <Content Include="ref\UnityEngine.ClothModule.dll" />
+    <Content Include="ref\UnityEngine.ClusterInputModule.dll" />
+    <Content Include="ref\UnityEngine.ClusterRendererModule.dll" />
+    <Content Include="ref\UnityEngine.CoreModule.dll" />
+    <Content Include="ref\UnityEngine.CrashReportingModule.dll" />
+    <Content Include="ref\UnityEngine.DirectorModule.dll" />
+    <Content Include="ref\UnityEngine.dll" />
+    <Content Include="ref\UnityEngine.DSPGraphModule.dll" />
+    <Content Include="ref\UnityEngine.GameCenterModule.dll" />
+    <Content Include="ref\UnityEngine.GridModule.dll" />
+    <Content Include="ref\UnityEngine.HotReloadModule.dll" />
+    <Content Include="ref\UnityEngine.ImageConversionModule.dll" />
+    <Content Include="ref\UnityEngine.IMGUIModule.dll" />
+    <Content Include="ref\UnityEngine.InputLegacyModule.dll" />
+    <Content Include="ref\UnityEngine.InputModule.dll" />
+    <Content Include="ref\UnityEngine.JSONSerializeModule.dll" />
+    <Content Include="ref\UnityEngine.LocalizationModule.dll" />
+    <Content Include="ref\UnityEngine.ParticleSystemModule.dll" />
+    <Content Include="ref\UnityEngine.PerformanceReportingModule.dll" />
+    <Content Include="ref\UnityEngine.Physics2DModule.dll" />
+    <Content Include="ref\UnityEngine.PhysicsModule.dll" />
+    <Content Include="ref\UnityEngine.ProfilerModule.dll" />
+    <Content Include="ref\UnityEngine.ScreenCaptureModule.dll" />
+    <Content Include="ref\UnityEngine.SharedInternalsModule.dll" />
+    <Content Include="ref\UnityEngine.SpriteMaskModule.dll" />
+    <Content Include="ref\UnityEngine.SpriteShapeModule.dll" />
+    <Content Include="ref\UnityEngine.StreamingModule.dll" />
+    <Content Include="ref\UnityEngine.SubstanceModule.dll" />
+    <Content Include="ref\UnityEngine.SubsystemsModule.dll" />
+    <Content Include="ref\UnityEngine.TerrainModule.dll" />
+    <Content Include="ref\UnityEngine.TerrainPhysicsModule.dll" />
+    <Content Include="ref\UnityEngine.TextCoreModule.dll" />
+    <Content Include="ref\UnityEngine.TextRenderingModule.dll" />
+    <Content Include="ref\UnityEngine.TilemapModule.dll" />
+    <Content Include="ref\UnityEngine.TLSModule.dll" />
+    <Content Include="ref\UnityEngine.UI.dll" />
+    <Content Include="ref\UnityEngine.UIElementsModule.dll" />
+    <Content Include="ref\UnityEngine.UIModule.dll" />
+    <Content Include="ref\UnityEngine.UmbraModule.dll" />
+    <Content Include="ref\UnityEngine.UNETModule.dll" />
+    <Content Include="ref\UnityEngine.UnityAnalyticsModule.dll" />
+    <Content Include="ref\UnityEngine.UnityConnectModule.dll" />
+    <Content Include="ref\UnityEngine.UnityTestProtocolModule.dll" />
+    <Content Include="ref\UnityEngine.UnityWebRequestAssetBundleModule.dll" />
+    <Content Include="ref\UnityEngine.UnityWebRequestAudioModule.dll" />
+    <Content Include="ref\UnityEngine.UnityWebRequestModule.dll" />
+    <Content Include="ref\UnityEngine.UnityWebRequestTextureModule.dll" />
+    <Content Include="ref\UnityEngine.UnityWebRequestWWWModule.dll" />
+    <Content Include="ref\UnityEngine.VehiclesModule.dll" />
+    <Content Include="ref\UnityEngine.VFXModule.dll" />
+    <Content Include="ref\UnityEngine.VideoModule.dll" />
+    <Content Include="ref\UnityEngine.VRModule.dll" />
+    <Content Include="ref\UnityEngine.WindModule.dll" />
+    <Content Include="ref\UnityEngine.XRModule.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
