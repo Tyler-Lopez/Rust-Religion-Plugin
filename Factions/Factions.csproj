@@ -7,8 +7,8 @@
     <ProjectGuid>{35CB6914-CF6F-4D71-BE6B-CA372E251A65}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Religion</RootNamespace>
-    <AssemblyName>Religion</AssemblyName>
+    <RootNamespace>Factions</RootNamespace>
+    <AssemblyName>Factions</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
